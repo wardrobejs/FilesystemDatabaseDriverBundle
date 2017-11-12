@@ -1,0 +1,5 @@
+services:
+    database.driver.filesystem:
+        class: !require '@FilesystemDatabaseDriverBundle://Driver/Filesystem'
+        arguments:
+            - '@container'

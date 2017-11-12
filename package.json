@@ -1,0 +1,23 @@
+{
+  "name": "@wardrobe/filesystemdatabasedriverbundle",
+  "version": "1.0.0",
+  "description": "Filesystem Database Driver",
+  "main": "FilesystemDatabaseDriverBundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wardrobejs/FilesystemDatabaseDriverBundle.git"
+  },
+  "author": "Yme-Jan Iedema <yme-jan@iedema.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wardrobejs/FilesystemDatabaseDriverBundle/issues"
+  },
+  "homepage": "https://github.com/wardrobejs/FilesystemDatabaseDriverBundle#readme",
+  "dependencies": {
+    "fs-extra": "^4.0.2",
+    "tingodb": "^0.5.1"
+  }
+}
