@@ -1,6 +1,4 @@
-const Driver = require('@wardrobe/databasebundle').Driver;
-
-const fs     = require('fs-extra'),
+const Driver = require('@wardrobe/databasebundle').Driver,
       Engine = require('tingodb')({nativeObjectID: true});
 
 class Filesystem extends Driver
