@@ -1,6 +1,6 @@
 {
   "name": "@wardrobe/filesystemdatabasedriverbundle",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Filesystem Database Driver",
   "main": "FilesystemDatabaseDriverBundle.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/wardrobejs/FilesystemDatabaseDriverBundle#readme",
   "dependencies": {
     "tingodb": "^0.5.1"
+  },
+  "peerDependencies": {
+    "@wardrobe/databasebundle": "1.x"
   }
 }
