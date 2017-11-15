@@ -1,6 +1,6 @@
 {
   "name": "@wardrobe/filesystemdatabasedriverbundle",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Filesystem Database Driver",
   "main": "FilesystemDatabaseDriverBundle.js",
   "author": "Yme-Jan Iedema <yme-jan@iedema.me>",
