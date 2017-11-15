@@ -90,7 +90,7 @@ class Filesystem extends Driver
             });
         }
 
-        entity[schema.getPrimary(true)] = new Engine.ObjectID(); // new ObjectID?
+        entity[schema.getPrimary(true)] = new Engine.ObjectID();
 
         return await new Promise((resolve, reject) => {
             collection.insert(this._entityToObject(entity), (err, r) => {
